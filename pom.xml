@@ -30,7 +30,7 @@
     </dependencies>
     <distributionManagement>
         <repository>
-            <id>github</id>
+            <id>emalify-sdk</id>
             <name>chapskev</name>
             <url>https://maven.pkg.github.com/chapskev/emalify-sdk</url>
         </repository>
