@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.roamtech.emalify</groupId>
+    <artifactId>emalify-sdk</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>Roamtech SMS SDK</name>
+    <description>A reusable Java SDK for interacting with Roamtech Emalify SMS Gateway</description>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>4.9.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.13.4</version>
+        </dependency>
+    </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Roamtech Packages</name>
+            <url>https://maven.pkg.github.com/chapskev/emalify-sdk</url>
+        </repository>
+    </distributionManagement>
+
+    <scm>
+        <url>https://github.com/chapskev/emalify-sdk</url>
+        <connection>scm:git:git://github.com/chapskev/emalify-sdk.git</connection>
+        <developerConnection>scm:git:ssh://github.com:chapskev/emalify-sdk.git</developerConnection>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>chapskev</id>
+            <name>Kariuki Kibue</name>
+            <email>chapskev@gmail.com</email>
+        </developer>
+    </developers>
+
+
+</project>
