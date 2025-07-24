@@ -1,0 +1,4 @@
+com/roamtech/emalify/sms/SmsClient.class
+com/roamtech/emalify/sms/SmsRequest.class
+com/roamtech/emalify/sms/SmsException.class
+com/roamtech/emalify/sms/SmsResponse.class
