@@ -31,12 +31,12 @@ public class SmsPayload {
     }
 
 
-    public SmsPayload(String partnerID,
+    public SmsPayload(String mobile,
+                      String message,
                       String apikey,
                       String pass_type,
+                      String partnerID,
                       String clientsmsid,
-                      String mobile,
-                      String message,
                       String shortcode) {
         this.partnerID = partnerID;
         this.apikey = apikey;

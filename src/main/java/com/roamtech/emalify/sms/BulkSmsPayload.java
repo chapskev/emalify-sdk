@@ -3,6 +3,9 @@ package com.roamtech.emalify.sms;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author kramer
+ */
 public class BulkSmsPayload {
 
     private int count;

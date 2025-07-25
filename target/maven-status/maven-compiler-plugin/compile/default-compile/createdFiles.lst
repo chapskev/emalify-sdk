@@ -1,6 +1,7 @@
+com/roamtech/emalify/sms/SmsApplication.class
 com/roamtech/emalify/sms/BulkSmsPayload.class
-com/roamtech/emalify/sms/SmsClient.class
-com/roamtech/emalify/sms/SmsRequest.class
-com/roamtech/emalify/sms/BulkSmsPayload$BulkSms.class
 com/roamtech/emalify/sms/SmsException.class
 com/roamtech/emalify/sms/SmsResponse.class
+com/roamtech/emalify/sms/SmsPayload.class
+com/roamtech/emalify/sms/SmsResponse$Response.class
+com/roamtech/emalify/sms/SmsClient.class
